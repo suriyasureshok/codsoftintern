@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
-df = pd.read_csv("C:\Users\SURIYA\Documents\GitHub\CODSOFT\codsoftintern\titanic.csv",encoding='ISO-8859-1')
+df = pd.read_csv("titanic.csv",encoding='ISO-8859-1')
 df
 df.describe(include="all")
 df.drop(columns=['Name','Ticket','PassengerId','Fare'])
