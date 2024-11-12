@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.impute import SimpleImputer
-df = pd.read_csv("/kaggle/input/imdb-india-movies/IMDb Movies India.csv", encoding='ISO-8859-1')
+df = pd.read_csv("movies.csv", encoding='ISO-8859-1')
 df
 df.info()
 print(df.shape)
